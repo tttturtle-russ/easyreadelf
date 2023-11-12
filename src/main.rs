@@ -1,5 +1,5 @@
 use std::fs::File;
-use readelf::elf;
+use easyreadelf::elf;
 use clap::{App, Arg};
 
 fn usage() {
